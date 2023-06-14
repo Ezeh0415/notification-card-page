@@ -12,24 +12,35 @@ html body{
 }
 
 #main{
+    margin-top: 2%;
     background-color:white;
     box-shadow: 5px 5px 10px black;
-    max-width: 70%;
+    max-width: 55%;
     max-height: 100%;
 }
 
+.container{
+    margin-top: 2%;
+}
+
+.d-flex h2{
+    font-size: large;
+    margin-top: 0.6rem;
+}
+
 .d-flex h3{
-    margin:8px 10%;
+    margin:9px 0 0 10%;
     background-color: blue;
     color:white;
-    padding: 0 8px 0 8px;
+    padding: 3px 5px 0 5px;
     height:25px;
-    font-size: medium;
+    font-size: small;
     border-radius: 5px 5px ;
 }
 
 .d-flex h5{
-    margin-left:43%;
+    font-size: medium;
+    margin-left:45%;
     color:rgb(126, 124, 124);
 }
 
@@ -39,6 +50,11 @@ html body{
     background-color: rgb(196, 228, 230);
     max-width:95%;
     height:60px;
+}
+
+#secdiv img{
+    padding-top: 3%;
+    width:35px;
 }
 
 .d-flex em{
@@ -51,26 +67,34 @@ html body{
     font-weight: bolder;
  }
 
-.d-flex img{
-    width:40px;
-    padding-top: 1%;
+ .d-flex img{
+    width:30px;
+    height:35%
 }
 
+
 .d-flex h4{
-    margin-left: 2%;
-    font-size: medium;
+    margin-left: 3%;
+    font-size:small;
 }
 
 .d-block p{
-    margin:-2% 0 0 9%;
+    font-size: small;
+    margin:-3% 0 0 15%;
 }
 
 #thirddiv{
     margin-top: 2%;
-    padding:0% 15px 0 15px;
+    padding:-3% 15px 0 15px;
     max-width:95%;
     background-color: rgb(196, 228, 230);
     height:60px;
+}
+
+#thirddiv img{
+    width:30px;
+    margin-left: -3%;
+    padding-top: 4%;
 }
 
 #fourthdiv{
@@ -81,6 +105,11 @@ html body{
     margin-top: 2%;
 }
 
+#fourthdiv img{
+    width:30px;
+    padding-top: 3%;
+}
+
 #fifthdiv{
     padding:2% 15px 0 15px;
     max-width:95%;
@@ -89,7 +118,7 @@ html body{
 #text{
     border: solid 1px;
     width:90%;
-    font-size: large;
+    font-size: small;
     margin-left: 10%;
 }
 
@@ -150,12 +179,15 @@ html body{
     background-color: rgb(196, 228, 230);
 }
 
+
+
+
 @media screen and (max-width:767px){
 
     #main{
         background-color:white;
         box-shadow: 5px 5px 10px black;
-        max-width: 90%;
+        max-width: 97%;
         max-height: 100%;
     }
 
@@ -170,21 +202,21 @@ html body{
     }
 
     .d-flex h5{
-        margin-left:24%;
-        font-size: medium;
+        margin-left:35%;
+        font-size: small;
         color:rgb(126, 124, 124);
     }
 
     #text{
         border: solid 1px;
-        width:98%;
-        font-size: smaller;
+        width:99%;
+        font-size: xx-small;
         margin-left: 10%;
     }
 
     .d-flex h4{
         margin-left: 2%;
-        font-size: smaller;
+        font-size: x-small;
     }
 
     .d-flex img{
@@ -192,14 +224,42 @@ html body{
     }
 
     .d-block p{
-        margin:-2% 0 0 16.5%;
-        font-size: small;
+        margin:-3% 0 0 22%;
+        font-size: x-small;
     }
 
     #dot{
         margin:0px 0 0 7px;
         font-size: 19px;
         color:red;
+    }
+
+    #eightdiv p{
+        margin-top: -4%;
+    }
+}
+
+
+@media screen and (max-width:414px) {
+
+    #main{
+        background-color:white;
+        box-shadow: 5px 5px 10px black;
+        max-width: 97%;
+        max-height: 100%;
+    }
+
+    .d-flex h5{
+        margin-left:40%;
+        font-size: small;
+        color:rgb(126, 124, 124);
+    }
+    #text{
+        border: solid 1px;
+        margin-top: 3%;
+        width:90%;
+        font-size: small;
+        margin-left: 10%;
     }
 }
 
@@ -213,20 +273,20 @@ html body{
     }
 
     .d-flex h2{
-        font-size: medium;
+        font-size: small;
         margin-top: 3%;
     }
 
     .d-flex h3{
-        font-size: small;
+        font-size: x-small;
         padding:3px 4px 0 4px;
         margin-top: 2px;
     }
 
 
     .d-flex h5{
-        margin:5% 0 0 15% ;
-        font-size: x-small;
+        margin:5% 0 0 10% ;
+        font-size: xx-small;
         color:rgb(126, 124, 124);
     }
 
@@ -237,19 +297,19 @@ html body{
 
     .d-flex h4{
         margin-left: 2%;
-        font-size: x-small;
+        font-size: xx-small;
     }
 
     #text{
         border: solid 1px;
         width:98%;
-        font-size: x-small;
+        font-size: xx-small;
         margin-left: 14%;
     }
 
     .d-block p{
         margin:-2% 0 0 23%;
-        font-size: x-small;
+        font-size: xx-small;
     }
 
     #im{
